@@ -1,4 +1,4 @@
-var book = {
+var book = { 
     
     topic: "JavaScript",
     
@@ -12,5 +12,5 @@ var tapona = {
 
     prada : 29 
 }
-console.log ( book.topic , book["fat"],book.author) ; 
-console.log ( tapona.prada)
+console.log(book.topic , book["fat"],book.author) ; 
+console.log ( tapona.prada) ; 
