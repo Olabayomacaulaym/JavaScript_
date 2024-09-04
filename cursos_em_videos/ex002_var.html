@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro exercício js</title>
+
+    <style>
+
+        body{
+
+            background-color : #380011 ; 
+            font: normal 1.5em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;  
+            color: #f0f0f0 ; 
+
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>
+        Curso de JavaScript com o prof Guanabarra !
+    </h1>
+
+    <p>
+        Estou aprendendo JavaScript pelo Canal de <strong>curso em video </strong> . 
+    </p>
+
+    <script>
+        
+       var alerta = ( window.prompt("Qual é o seu nome por favor")) 
+       window.alert(`Bem-vindo ao portal ${alerta} `)
+       document.write(`${alerta} <br> o seu nome tem ${alerta.length} letras . <br> ${alerta}  <br>para escrever o seu nome com as letras maiúculas vai estar da seguinte maneira : ${alerta.toUpperCase()} <br> e com as letras minusculos vai estar da seguinte maneira: ${alerta.toLowerCase()}.`)
+    </script>
+
+</body>
+</html>
